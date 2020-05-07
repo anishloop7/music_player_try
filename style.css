@@ -1,0 +1,35 @@
+body{
+    background-image: url('backmusic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1,2em;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 50vh;
+}
+#songlist{
+    background: lightcyan;
+    border-radius: 10px;
+    text-align: left;
+}
+li{
+    padding: 15px;
+}
+li:hover {
+    cursor: pointer;
+}
+#controls{
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    background: lightcyan;
+    padding: 1.5em;
+}
+#controls:hover{
+    cursor: pointer;
+}
+progress{
+     width: 80%;
+     margin: 10px;
+}
